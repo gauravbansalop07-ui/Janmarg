@@ -9,7 +9,7 @@ import { Card } from '@/app/components/ui/card';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useLanguage } from '@/contexts/LanguageContext';
 import LanguageSelector from '@/app/components/LanguageSelector';
-// import logoImage from 'figma:asset/25c5588292113533c4d842999e3987384b1675f9.png';
+import logoImage from '../../assets/25c5588292113533c4d842999e3987384b1675f9.png';
 
 interface ModernLandingProps {
   onSelectPortal: (portal: 'user' | 'collaborator' | 'authority' | 'ngo') => void;
